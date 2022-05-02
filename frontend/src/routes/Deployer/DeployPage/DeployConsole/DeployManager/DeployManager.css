@@ -1,0 +1,9 @@
+.operation-card.warning .subtitle {
+  font-weight: bold;
+  color: red;
+}
+
+.contract-card .icon-color {
+  color: #2ecc71;
+}
+

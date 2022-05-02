@@ -1,0 +1,118 @@
+.builder-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  background: #FFF;
+  border: 1px solid #DEDEDE;
+}
+
+.ant-select-item-option-content .builder-block, .ant-select-selection-item .builder-block {
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: none;
+}
+
+.ant-select-item-option-content .builder-block .builder-block-label, .ant-select-selection-item .builder-block .builder-block-label {
+  min-height: auto !important;
+}
+
+.builder-block .builder-block-label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.builder-block .type-tag {
+  box-sizing: border-box;
+  width: 5em;
+  margin: 0 12px 0 7px;
+  text-align: center;
+}
+
+.builder-block label {
+  font-weight: 600;
+  margin-right: 1em;;
+}
+
+.builder-block .ant-form-item {
+  margin-bottom: 0;
+}
+
+.builder-block .full-width {
+  width: 100%;
+}
+
+.builder-block.list-block {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.builder-block.list-block .list-add-button {
+  display: flex;
+  flex-grow: 1;
+}
+
+.builder-block.list-block .list-block-spacer {
+  width: 100%;
+  margin: 12px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.builder-block.list-block .list-table {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 0 7px;
+  box-sizing: border-box;
+}
+
+.builder-block.list-block .list-table td.ant-table-cell {
+  padding: 5px;
+}
+
+.builder-block.list-block .list-table .actions {
+  text-align: center;
+}
+
+.builder-block.list-block .builder-block-label:first-of-type {
+  min-height: 32px;
+}
+
+.builder-block.list-block .builder-block {
+  background: transparent;
+  margin: 0;
+  border: 0;
+}
+
+.progress-card.validation-error {
+  background: rgba(255,0,0,0.2);
+  border: 1px solid #F00;
+  align-items: flex-start;
+}
+
+.progress-card.validation-error .icon-color {
+  color: #F00;
+}
+
+.progress-card.validation-error pre {
+  margin: 12px 0;
+  width: 100%;
+}
+
+.builder-block.record-block {
+  align-items: flex-start;
+}
+
+.builder-block.record-block .builder-block:first-of-type {
+  margin-top: 2.5em;
+}
+
+/* .builder-block:hover {
+  background-color: #fffdf4;
+} */

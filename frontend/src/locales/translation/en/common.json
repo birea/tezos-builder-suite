@@ -1,0 +1,23 @@
+{
+  "add_items_to": "Add items to {{name}}",
+  "key": "Key",
+  "prim": {
+    "unit": "Unit",
+    "bool": "Bool",
+    "bytes": "Bytes",
+    "nat": "Natural",
+    "int": "Integer",
+    "string": "String",
+    "address": "Address",
+    "storage": "Storage",
+    "set": "Set",
+    "list": "List",
+    "map": "Map",
+    "big_map": "Big Map",
+    "pair": "Pair",
+    "record": "Record",
+    "or": "Logical OR"
+  },
+  "tryAgain": "Try again",
+  "value": "Value"
+}

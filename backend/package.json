@@ -1,0 +1,36 @@
+{
+  "name": "tezos-builder-suite",
+  "version": "0.4.0",
+  "description": "All-in-one library to work with Beacon SDK within Node.js",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "start": "nodemon",
+    "start:prod": "NODE_ENV=production node ./build/dev.js",
+    "build": "rm -rf build/ && tsc",
+    "test": "jest --testMatch='**/__tests__/**/*.spec.ts?(x)' --passWithNoTests",
+    "test:e2e": "jest --testMatch='**/__tests__/**/*.e2e.ts?(x)' --globalSetup='<rootDir>/globalSetup.ts' --passWithNoTests --runInBand"
+  },
+  "author": "uconomy <devhub@uconomy.io>",
+  "repository": "https://github.com/uconomy/tezos-builder-suite",
+  "issues": "https://github.com/uconomy/tezos-builder-suite/issues",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.31.0",
+    "jest": "^26.6.0",
+    "nodemon": "^2.0.12",
+    "ts-jest": "^26.5.5",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@apollo/federation": "^0.27.0",
+    "apollo-server-express": "^3.0.2",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "open": "^8.2.1"
+  }
+}

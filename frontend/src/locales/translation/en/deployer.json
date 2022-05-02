@@ -1,0 +1,85 @@
+{
+  "menuTitle": "Deployer",
+  "titles": {
+    "selectContract": "Select a contract",
+    "checkContract": "Verify contract \"{{name}}\" it's the right one",
+    "prepareStorage": "Prepare initial contract Storage",
+    "preview": "Preview deploy operation and costs for \"{{name}}\"",
+    "deploy": "Deploy contract \"{{name}}\""
+  },
+  "steps": {
+    "selectContract": "Choose a contract",
+    "checkContract": "Verify it's the right one",
+    "prepareStorage": "Prepare initial Storage",
+    "preview": "Preview deploy operation",
+    "deploy": "Deploy"
+  },
+  "loadingContracts": "Loading contracts...",
+  "noContractFound": "No contract found.",
+  "errorLoadingContracts": "Error while loading contracts:",
+  "confirmContract": "Confirm Contract",
+  "storage": {
+    "content": "Storage",
+    "jsonMichelson": "Storage structure",
+    "unwrappedMichelson": "Unwrapped Michelson",
+    "contractCode": "Contract code",
+    "storageContent": "Storage Content",
+    "preview": "Deploy preview",
+    "deploy": "Deploy"
+  },
+  "verifyAndSaveStorage": "Verify and save",
+  "storageValidationError": "{{name}} while validating generated storage",
+  "storageValidationErrorInfo": "Please report this at https://github.com/uconomy/tezos-builder-suite",
+  "previewOrigination": "Preview Origination",
+  "signer": {
+    "loadingEndpointSettings": "Loading Tezos endpoint settings...",
+    "endpointSettingsError": "Failed to retrieve Tezos endpoint settings",
+    "wallet": {
+      "name": "Tezos Builder Suite",
+      "disclaimerText": "This signer will be used only to perform actions activated by a specific user action."
+    }
+  },
+  "estimates": {
+    "baseFeeMutez": "Base Fee",
+    "minimalFeeMutez": "Minimal Fee",
+    "suggestedFeeMutez": "Suggested Fee",
+    "operationFeeMutez": "Operation Fee",
+    "burnFeeMutez": "Burn Fee",
+    "gasLimit": "Gas limit",
+    "consumedMilligas": "Consumed Gas",
+    "storageLimit": "Storage limit",
+    "opSize": "Operation size",
+    "minimalFeePerStorageByteMutez": "Minimal Fee per Storage byte",
+    "totalCost": "Total Cost"
+  },
+  "retrievingEstimates": "Retrieving estimates...",
+  "retrievingEstimatesInfo": "Results will be present in a few.",
+  "aknowledgeEstimates": "Aknowledge Estimates",
+  "network": {
+    "scope": {
+      "mainnet": "MainNet",
+      "testnet": "TestNet",
+      "sandbox": "Sandbox"
+    }
+  },
+  "networkWarning": "You are going to deploy on {{scope}}!",
+  "networkEndpoint": "Your are going to use endpoint: {{endpoint}}",
+  "chooseSigner": "Choose origination signer",
+  "signerWarning": {
+    "wallet": "{{signer}} will sign and pay for the origination",
+    "faucet": "Faucet account {{signer}} will sign and pay for the origination",
+    "privateKey": "An account with private key \"{{signer}}\" will sign and pay for the origination"
+  },
+  "signerWarningInfo": "Once you start deploying the contract, the operation won't be cancelable nor undoable.",
+  "changeSigner": "Change operation signer",
+  "deploy": "Deploy Contract \"{{name}}\"!",
+  "operationForged": "Operation {{hash}} was forged",
+  "operationForgedWarning": "Please don't close/refresh the page as the contract is being originated!",
+  "operationForgedInfo": "Block was included and processed successfully",
+  "contractDeployed": "Contract deployed at {{address}}",
+  "contractDeployedInfo": "You can now start interacting with it!",
+  "external": {
+    "viewOperationTzkt": "View operation on tzkt.io",
+    "viewContractBcd": "View contract on better-call.dev"
+  }
+}

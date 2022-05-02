@@ -1,0 +1,41 @@
+.estimate-number {
+  text-align: right;
+  font-weight: 500;
+  color: #9b59b6;
+}
+
+.estimate-bytes {
+  text-align: right;
+  font-weight: 500;
+  color: #f39c12;
+}
+
+.estimate-mutez {
+  text-align: right;
+  font-weight: 500;
+  color: #3498db;
+}
+
+.estimate-tez {
+  text-align: right;
+  font-weight: bold;
+  color: #2980b9;
+  justify-content: flex-end;
+}
+
+.totalCost {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.estimates {
+  border: 1px solid #dedede;
+}
+
+.estimates .ant-table-row:last-of-type {
+  background: rgba(0, 140, 255, 0.2)
+}
